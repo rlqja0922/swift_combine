@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99A49C54271FABDD00688A42 /* disgroup_slider_progress_stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A49C53271FABDD00688A42 /* disgroup_slider_progress_stepper.swift */; };
 		99AC782127166A2D00F2989C /* combine_kbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC782027166A2D00F2989C /* combine_kbApp.swift */; };
 		99AC782327166A2D00F2989C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC782227166A2D00F2989C /* ContentView.swift */; };
 		99AC782527166A3200F2989C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AC782427166A3200F2989C /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		99AC783227166A3200F2989C /* combine_kbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC783127166A3200F2989C /* combine_kbTests.swift */; };
 		99AC783C27166A3200F2989C /* combine_kbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC783B27166A3200F2989C /* combine_kbUITests.swift */; };
 		99AC783E27166A3200F2989C /* combine_kbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC783D27166A3200F2989C /* combine_kbUITestsLaunchTests.swift */; };
+		99AC784B27190F2100F2989C /* combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC784A27190F2100F2989C /* combine.swift */; };
+		99C488C12728E63B0021D442 /* trim_layout_shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C488C02728E63B0021D442 /* trim_layout_shape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99A49C53271FABDD00688A42 /* disgroup_slider_progress_stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disgroup_slider_progress_stepper.swift; sourceTree = "<group>"; };
 		99AC781D27166A2D00F2989C /* combine_kb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = combine_kb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AC782027166A2D00F2989C /* combine_kbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine_kbApp.swift; sourceTree = "<group>"; };
 		99AC782227166A2D00F2989C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,8 @@
 		99AC783727166A3200F2989C /* combine_kbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = combine_kbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AC783B27166A3200F2989C /* combine_kbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine_kbUITests.swift; sourceTree = "<group>"; };
 		99AC783D27166A3200F2989C /* combine_kbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine_kbUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99AC784A27190F2100F2989C /* combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine.swift; sourceTree = "<group>"; };
+		99C488C02728E63B0021D442 /* trim_layout_shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trim_layout_shape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				99AC782027166A2D00F2989C /* combine_kbApp.swift */,
+				99AC784A27190F2100F2989C /* combine.swift */,
 				99AC782227166A2D00F2989C /* ContentView.swift */,
+				99A49C53271FABDD00688A42 /* disgroup_slider_progress_stepper.swift */,
+				99C488C02728E63B0021D442 /* trim_layout_shape.swift */,
 				99AC782427166A3200F2989C /* Assets.xcassets */,
 				99AC782627166A3200F2989C /* Preview Content */,
 			);
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99AC782327166A2D00F2989C /* ContentView.swift in Sources */,
+				99AC784B27190F2100F2989C /* combine.swift in Sources */,
+				99C488C12728E63B0021D442 /* trim_layout_shape.swift in Sources */,
+				99A49C54271FABDD00688A42 /* disgroup_slider_progress_stepper.swift in Sources */,
 				99AC782127166A2D00F2989C /* combine_kbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
